@@ -1,0 +1,278 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+    padding: 0px;
+}
+
+/* Styling of the nav */
+nav{
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 15px;
+    position: fixed;
+    width: 100%;
+}
+li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 0px 7px;
+}
+a{
+    text-decoration: none;
+    color: rgb(40, 39, 39);
+}
+.corp{
+    padding-right: 400px;
+}
+.nav-link{
+    /* margin-right: 100px; */
+    justify-content: flex-end;
+}
+.BTN{
+    /* border: 1px solid black; */
+    padding: 5px 7px;
+    background-color: rgb(56, 54, 54);
+    color: white;
+    display: inline-block;
+}
+
+@media screen and (max-width: 751px;) {
+    ul, li, a{
+        display: block;
+        text-align: center;
+    }
+
+    
+}
+
+/* Styling of the nav ends here */
+
+/* Styling of Section 1 */
+.sect-1{
+    background-color: rgb(71, 189, 154);
+    padding-top: 80px;
+    color: white;
+    padding-bottom: 90px;
+    padding-left: 75px;
+    width: 100%;
+}
+.help{
+    font-size: 40px;
+    font-weight: lighter;
+    margin-left: 30px;
+}
+.borr{
+    border: 2px solid white;
+    width: 75px;
+}
+.we-help{
+    margin-left: 40px;
+}
+.lorem-div-1{
+    margin-left: 40px;
+    padding-top: 20px;
+}
+.ipsum{
+    display: flex;
+}
+.img-1{
+    width: 400px;
+    height: 250px;
+    margin-top: -120px;
+    margin-left: 40px;
+}
+.Learn{
+    border: 1px solid white;
+    padding: 6px 8px;
+    display: inline-block;
+    margin-left: 40px;
+    margin-top: 20px;
+    color: white;
+}
+
+.horizontal{
+    font-weight: bolder;
+    color: yellow;
+}
+
+/* Styling of Section 1  ends here*/
+
+/* Styling of Section 2 */
+.sect-2{
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+.sect-2-1{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+.who{
+    padding-bottom: 15px;
+    font: 85px;
+}
+
+.bor{
+     border: 2px solid black;
+}
+.Learnn{
+    border: 1px solid black;
+    padding: 6px 8px;
+    display: inline-block;
+    color: black;
+    margin: 15px 0px;
+}
+
+/* Styling of Section 2  ends here*/
+
+/* Styling of Section 3 */
+.sect-3{
+    background-color: rgb(251, 234, 213);
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.ours{
+    margin-left: 85px;
+}
+.org{
+    font-size: 55px;
+    font-weight: lighter;
+}
+.our-part{
+    font-weight: lighter;
+    padding-bottom: 25px;
+}
+
+/* Styling of Section 3 ends here*/
+
+/* Styling of Section 4*/
+.sect-4{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-right: 20px;
+}
+.happy-1{
+    width: 350px;
+    height: 200px;
+}
+.team{
+    padding: 15px 0px;
+}
+.card{
+    padding-top: 10px;
+    font-weight: lighter;
+    font-size: 15px;
+}
+.Article{
+    color: black;
+}
+.omo{
+    display: flex;
+    justify-content: center;
+}
+.sectt-1{
+    padding: 0px 16px;
+}
+.paulo{
+    width: 360px;
+    height: 250px;
+    box-shadow: black;
+    margin-right: 50px;
+}
+.equals{
+    margin-right: 85px;
+}
+.omo-1{
+    display: flex;
+    justify-content: center;
+    padding-top: 90px;
+    padding-right: 80px;
+}
+.research{
+    font-size: 40px;
+    padding-bottom: 12px;
+}
+
+
+/* Styling of Section 4 ends here*/
+
+/* Styling of Section 5*/
+.sect-5{
+    background-color: rgb(236, 236, 236);
+    padding-top: 40px;
+    padding-bottom: 50px;
+    padding-left: 70px;
+    width: 100%;
+}
+.div-5{
+    display: flex;
+}
+.img-6{
+    width: 350px;
+    height: 250px;
+    margin-left: 50px;
+}
+.learn-how{
+    border: 1px solid black;
+    padding: 6px 8px;
+    display: inline-block;
+    color: black;
+}
+.we-do{
+    font-size: 40px;
+    padding-bottom: 30px;
+}
+.lorem-sit{
+    font-size: 17px;
+}
+
+/* Styling of Section 5 ends here*/
+
+
+/* Styling of Section 6*/
+.starts{
+    background-color: rgb(86, 189, 141);
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.ingrain{
+    font-size: 45px;
+    text-align: center;
+    color: white;
+}
+
+
+/* Styling of Section 6 ends here*/
+
+
+/* Styling of Section 7 ends here*/
+
+.sect-7{
+    padding-top: 65px;
+    padding-bottom: 45px;
+}
+.klaus{
+    text-align: center;
+    font-size: 40px;
+    padding-bottom: 30px;
+}
+.img-7{
+    width: 230px;
+    height: 200px;
+}
+.lastt{
+    display: flex;
+    justify-content: center;
+}
+.last-guy{
+    margin: 0px 10px;
+}
+.klas{
+    padding-top: 15px;
+}
+.man{
+    padding-top: 7px;
+}
+
+/* Styling of Section 7 ends here*/
